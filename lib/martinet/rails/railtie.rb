@@ -1,6 +1,6 @@
 module Martinet
   module Rails
-    class Railtie < Rails::Railtie
+    class Railtie < ::Rails::Railtie
       # TODO: Test me
       initializer 'martinet.setup_warden-manager' do |app|
         app.middleware.use Warden::Manager do |config|
