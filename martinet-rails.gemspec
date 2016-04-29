@@ -1,4 +1,6 @@
 # coding: utf-8
+# frozen_string_literal: true
+
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'martinet/rails/version'
@@ -23,6 +25,7 @@ Gem::Specification.new do |spec|
   spec.signing_key = File.expand_path('~/.ssh/gem-private_key.pem')
 
   spec.add_dependency 'martinet', '~> 0.1.1'
+
   spec.add_development_dependency 'bundler', '~> 1.11', '>= 1.11.2'
   spec.add_development_dependency 'rake', '~> 11.1', '>= 11.1.2'
   spec.add_development_dependency 'appraisal', '~> 2.1.0'
