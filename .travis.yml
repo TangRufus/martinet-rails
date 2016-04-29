@@ -2,8 +2,8 @@ language: ruby
 
 rvm:
   - ruby-head
-  - 2.3.0
-  - 2.2.4
+  - 2.3.1
+  - 2.2.5
   - 2.1.10
 
 gemfile:
@@ -15,9 +15,9 @@ gemfile:
 matrix:
   fast_finish: true
   allow_failures:
-    - gemfile: gemfiles/activerecord_head.gemfile
+    - gemfile: gemfiles/github_head.gemfile
   exclude:
-    - gemfile: gemfiles/activerecord_head.gemfile
+    - gemfile: gemfiles/github_head.gemfile
       rvm: 2.1.10
     - gemfile: gemfiles/activerecord_5_0.gemfile
       rvm: 2.1.10
@@ -27,7 +27,7 @@ before_install:
   - gem update bundler
   - gem cleanup bundler
 
-bundler_args: --without tools --trust-policy=MediumSecurity --jobs=3 --retry=3
+bundler_args: --without tools --jobs=3 --retry=3
 
 branches:
   only:

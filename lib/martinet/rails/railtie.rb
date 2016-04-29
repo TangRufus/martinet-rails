@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Martinet
   module Rails
     class Railtie < ::Rails::Railtie

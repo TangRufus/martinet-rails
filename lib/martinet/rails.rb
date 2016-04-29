@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'warden'
 require 'martinet/rails/version'
 require 'martinet/rails/serializer'
