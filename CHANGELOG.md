@@ -5,6 +5,7 @@
 
 **Merged pull requests:**
 
+- Use github-changelog-generator to manage changelog [\#7](https://github.com/TangRufus/martinet-rails/pull/7) ([TangRufus](https://github.com/TangRufus))
 - Add rubocop [\#5](https://github.com/TangRufus/martinet-rails/pull/5) ([TangRufus](https://github.com/TangRufus))
 - Clone from martinet-rails old [\#4](https://github.com/TangRufus/martinet-rails/pull/4) ([TangRufus](https://github.com/TangRufus))
 - Rename: certs/tangrufus.gem --\> certs/tangrufus.pem [\#3](https://github.com/TangRufus/martinet-rails/pull/3) ([TangRufus](https://github.com/TangRufus))

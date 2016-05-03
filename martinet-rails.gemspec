@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
   spec.cert_chain  = ['certs/tangrufus.pem']
   spec.signing_key = File.expand_path('~/.ssh/gem-private_key.pem')
 
-  spec.add_dependency 'martinet', '~> 0.1.1'
+  spec.add_dependency 'martinet', '>= 0.2.0', '< 1.0.0'
 
   spec.add_development_dependency 'bundler', '~> 1.11', '>= 1.11.2'
   spec.add_development_dependency 'rake', '~> 11.1', '>= 11.1.2'
