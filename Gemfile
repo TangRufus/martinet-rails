@@ -7,5 +7,5 @@ gemspec
 
 group :tools do
   gem 'gemsmith', '~> 7.6'
-  gem 'github_changelog_generator', '~> 1.12'
+  gem 'github_changelog_generator', '~> 1.12', '~> 1.12.1'
 end
