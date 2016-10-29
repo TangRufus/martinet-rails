@@ -1,11 +1,3 @@
-appraise 'activerecord_4_1' do
-  gem 'activerecord', '~> 4.1.0', '>= 4.1.15'
-end
-
-appraise 'activerecord_4_2' do
-  gem 'activerecord', '~> 4.2.0', '>= 4.2.6'
-end
-
 appraise 'activerecord_5_0' do
   gem 'activerecord', '>= 5.0.0.rc1', '< 5.1'
 end
