@@ -31,7 +31,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'appraisal', '~> 2.1.0'
   spec.add_development_dependency 'minitest', '~> 5.8', '>= 5.8.4'
   spec.add_development_dependency 'codeclimate-test-reporter', '~> 0.5.0'
-  spec.add_development_dependency 'activerecord', '>= 4.0.13'
+  spec.add_development_dependency 'activerecord', '>= 5.0.0'
   spec.add_development_dependency 'sqlite3', '~> 1.3', '>= 1.3.11'
   spec.add_development_dependency 'rubocop', '~> 0.40.0'
 end
