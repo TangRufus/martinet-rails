@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 appraise 'activerecord_5_0' do
-  gem 'activerecord', '>= 5.0.0.rc1', '< 5.1'
+  gem 'activerecord', '~> 5.0', '>= 5.0.0.1'
 end
 
 appraise 'github_head' do
